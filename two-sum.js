@@ -37,9 +37,7 @@
                 found = true; 
                 result = [i,j];
                 break;
-            } else {
-
-            }
+            } 
         }
         if (found) break;
     }
