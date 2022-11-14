@@ -24,6 +24,7 @@
  * @return {number[]}
  */
  var twoSum = function(nums, target) {
+    /** To check if the target is 0 and if we have any 0s in the list */
     const direct = nums.map((n,i) => n === target ? i : -1).filter(n => n != -1); 
     if (direct.length > 1) return direct;
 
